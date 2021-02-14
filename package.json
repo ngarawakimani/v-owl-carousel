@@ -6,7 +6,7 @@
     "name": "Gaurav Deshpande <93gaurav93@gmail.com>"
   },
   "bugs": {
-    "url": "https://github.com/93gaurav93/v-owl-carousel/issues"
+    "url": "https://github.com/ngarawakimani/v-owl-carousel/issues"
   },
   "keywords": [
     "vuejs",
@@ -41,12 +41,12 @@
     "webpack": "1.13.1",
     "webpack-merge": "^4.1.0"
   },
-  "homepage": "https://github.com/93gaurav93/v-owl-carousel#readme",
+  "homepage": "https://github.com/ngarawakimani/v-owl-carousel#readme",
   "license": "MIT",
   "main": "dist/v-owl-carousel.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/93gaurav93/v-owl-carousel.git"
+    "url": "git+https://github.com/ngarawakimani/v-owl-carousel.git"
   },
   "scripts": {
     "build": "webpack --config ./webpack.config.js"
