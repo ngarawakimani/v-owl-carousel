@@ -100,7 +100,6 @@
             loop         : this.loop,
             center       : this.center,
             nav          : this.nav,
-            navText      : Object.values(this.navText),
             autoplay     : this.autoplay,
             autoplaySpeed: this.autoplaySpeed,
             rewind       : this.rewind,
@@ -114,7 +113,10 @@
             dots     : this.dots,
             autoplayTimeout     : this.autoplayTimeout,
             autoplayHoverPause     : this.autoplayHoverPause,
-            responsive     : this.responsive
+            responsive     : this.responsive,
+            navText: ['<i class="flaticon-left-chevron"></i>', '<i class="flaticon-right-chevron"></i>'],
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn'
         });
 
         $('#' + this.prevHandler).click(function() {
