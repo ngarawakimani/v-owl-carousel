@@ -42,7 +42,10 @@
             default: true
         },
         navText : {
-            default: ['&#x27;next&#x27;','&#x27;prev&#x27;']
+            default: {
+              next: '&#x27;next&#x27;',
+              prev: '&#x27;prev&#x27;'
+            }
         },
         autoplay : {
             default: false
@@ -97,7 +100,7 @@
             loop         : this.loop,
             center       : this.center,
             nav          : this.nav,
-            navText      : this.navText,
+            navText      : Object.values(this.navText),
             autoplay     : this.autoplay,
             autoplaySpeed: this.autoplaySpeed,
             rewind       : this.rewind,
