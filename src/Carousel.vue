@@ -41,12 +41,6 @@
         nav : {
             default: true
         },
-        navText : {
-            default: {
-              next: '&#x27;next&#x27;',
-              prev: '&#x27;prev&#x27;'
-            }
-        },
         autoplay : {
             default: false
         },
